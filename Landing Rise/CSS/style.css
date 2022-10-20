@@ -1,0 +1,852 @@
+/* CONFIG HOME */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    width: auto;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-image: url(../IMG/bg-header.png);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-primary {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo-box {
+    display: flex;
+    height: 200px;
+    width: 50%;
+    justify-content: right;
+    margin-left: 200px;
+}
+
+.logo-rise {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    background-image: url(../IMG/logo-fise-sport-land.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    margin-bottom: 600px;
+    margin-right: 150px;
+}
+
+.menu-box {
+    display: flex;
+    height: 200px;
+    width: 20%;
+    justify-content: left;
+    align-items: center;
+}
+
+.hamb-nav {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-image: url(../IMG/menu-sandu.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+}
+
+.header-secondary {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-banner {
+    display: flex;
+    height: 450px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.video-banner video {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.text-banner {
+    display: flex;
+    height: 450px;
+    width: 600px;
+    margin-right: 100px;
+    background-image: url(../IMG/svg-text-home.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    justify-content: start;
+}
+
+.btn-outline-light {
+    margin-top: 360px;
+    display: flex;
+    height: 70px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+
+
+.link-text {
+    text-decoration: none;
+}
+
+.link-text-fise {
+    text-decoration: none;
+}
+
+#strip-nft {
+    display: flex;
+    width: auto;
+    height: 1200px;
+    background-color: rgb(243, 243, 243);
+    justify-content: center;
+    align-items: center;
+    background-image: url(../IMG/teste-bg-1.png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 70px;
+    
+}
+
+.card{
+    margin-top: 200px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    width: 350px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.205) 2px 6px 12px;
+    margin-bottom: 20px;
+}
+
+.btn-warning{
+    display: flex;
+    border-color: white;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    height: 70px;
+    width: 230px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 45px;
+    border-color: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+
+.btn-warning:hover{
+    background-color: #fbbc00;
+    border-color: none;
+    height: 72px;
+    width: 235px;
+    font-size: 19px;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.card-img-top{
+    background-size: 120%;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+    
+#strip-rewarding {
+    display: flex;
+    width: auto;
+    height: 1200px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../IMG/svg-bg-rewa.svg);
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+    .div-card-rewarding{
+        display: flex;
+        height: 700px;
+        width: 350px;
+        background-color: rgba(7, 99, 99, 0.429);
+        margin-top: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .div-card-rewarding-1{
+        display: flex;
+        height: 700px;
+        width: 350px;
+        background-color: rgba(7, 99, 99, 0);
+        margin-top: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column-reverse
+    }
+
+    .div-card-rewarding-2{
+        display: flex;
+        height: 700px;
+        width: 350px;
+        background-color: rgba(7, 99, 99, 0);
+        margin-top: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .div-card-rewarding-3{
+        display: flex;
+        height: 700px;
+        width: 350px;
+        background-color: rgba(7, 99, 99, 0);
+        margin-top: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column-reverse
+    }
+
+    .div-card-rewarding-4{
+        display: flex;
+        height: 700px;
+        width: 350px;
+        background-color: rgba(7, 99, 99, 0);
+        margin-top: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .img-rewarding-1{
+        height: 500px;
+        width: 350px;
+        display: flex;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: end;
+        background-color: rgb(230, 230, 230);
+        background-image: url(../IMG/0023.png);
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .img-rewarding-2{
+        height: 500px;
+        width: 350px;
+        display: flex;
+        background-color: rgb(230, 230, 230);
+        background-image: url(../IMG/0069.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .img-rewarding-3{
+        height: 500px;
+        width: 350px;
+        display: flex;
+        background-color: rgb(230, 230, 230);
+        background-image: url(../IMG/0031.png);
+        background-size: 100%;
+        background-position-y: -10px;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .img-rewarding-4{
+        height: 500px;
+        width: 350px;
+        display: flex;
+        background-color: rgb(230, 230, 230);
+        background-image: url(../IMG/0001.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .text-rewarding-1{
+        margin-top: 20px;
+        height: 250px;
+        width: 350px;
+        display: flex;
+        background-color: rgba(123, 24, 24, 0);
+        background-image: url(../IMG/svg-txt-rewa-2.svg);
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: 90%;
+    }
+
+    .text-rewarding-2{
+        margin-top: 20px;
+        height: 250px;
+        width: 350px;
+        display: flex;
+        background-color: rgba(123, 24, 24, 0);
+        background-image: url(../IMG/svg-txt-rewa-1.svg);
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: 90%;
+    }
+
+    .text-rewarding-3{
+        margin-top: 20px;
+        height: 250px;
+        width: 350px;
+        display: flex;
+        background-color: rgba(123, 24, 24, 0);
+        background-image: url(../IMG/svg-txt-rewa-3.svg);
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: 90%;
+    }
+
+    .text-rewarding-4{
+        margin-top: 20px;
+        height: 250px;
+        width: 350px;
+        display: flex;
+        background-color: rgba(123, 24, 24, 0);
+        background-image: url(../IMG/svg-txt-rewa-4.svg);
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: 90%;
+    }
+
+    .btn-outline-light-rewarding{
+        background-color: #fbbc00;
+        margin-bottom: 20px;
+        height: 70px;
+        width: 280px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .btn-outline-light-rewarding:hover{
+        background-color: #fbbc00;
+        margin-bottom: 20px;
+        color: black;
+        height: 75px;
+        width: 285px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+
+#strip-buy-nft {
+    display: flex;
+    width: auto;
+    justify-content: baseline;
+    align-items: end;
+    height: 1200px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../IMG/bg-nft-v2.svg);
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+ 
+.card-nft{
+    margin-bottom: 50px;
+    display: flex;
+    height: 700px;
+    width: 320px;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 20px;
+    align-items: start;
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-direction: column;
+}
+
+    .video-nft-1{
+        display: flex;
+        border-radius: 20px;
+        width: 320px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url(../IMG/0023.png);
+        background-position: center;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        margin-left: 0%;
+    }
+        .video-nft-1:hover{
+            display: flex;
+            border-radius: 20px;
+            width: 320px;
+            height: 400px;
+            background-color: rgba(0, 0, 0, 0);
+            background-image: url(../IMG/0023.png);
+            background-position: center;
+            background-size: 125%;
+            background-repeat: no-repeat;
+            margin-left: 0%;
+        }
+
+    .video-nft-2{
+        display: flex;
+        border-radius: 20px;
+        width: 320px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url(../IMG/0031.png);
+        background-position: center;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        margin-left: 0%;
+    }
+
+        .video-nft-2:hover{
+            display: flex;
+            border-radius: 20px;
+            width: 320px;
+            height: 400px;
+            background-color: rgba(0, 0, 0, 0);
+            background-image: url(../IMG/0031.png);
+            background-position: center;
+            background-size: 125%;
+            background-repeat: no-repeat;
+            margin-left: 0%;
+        }
+
+    .video-nft-3{
+        display: flex;
+        border-radius: 20px;
+        width: 320px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url(..//IMG/0069.png);
+        background-position: center;
+        background-position-x: -5px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+        .video-nft-3:hover{
+            display: flex;
+            border-radius: 20px;
+            width: 320px;
+            height: 400px;
+            background-color: rgba(0, 0, 0, 0);
+            background-image: url(../IMG/0069.png);
+            background-position: center;
+            background-size: 105%;
+            background-repeat: no-repeat;
+            margin-left: 0%;
+        }
+
+    .video-nft-4{
+        display: flex;
+        border-radius: 20px;
+        width: 320px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url(../IMG/0001.png);
+        background-position: center;
+        background-position-x: -40px;
+        background-size: 120%;
+        background-repeat: no-repeat;
+
+    }
+
+        .video-nft-4:hover{
+            display: flex;
+            border-radius: 20px;
+            width: 320px;
+            height: 400px;
+            background-color: rgba(0, 0, 0, 0);
+            background-image: url(../IMG/0001.png);
+            background-position: center;
+            background-position-x: -50px;
+            background-size: 125%;
+            background-repeat: no-repeat;
+            margin-left: 0%;
+        }
+
+    .text-nft-1{
+        display: flex;
+        height: 150px;
+        width: 320px;
+        background-color: rgba(0, 255, 255, 0);
+        margin-top: 30px;
+        background-image: url(../IMG/svg-text-nft-1.svg);
+        background-position: top;
+        background-position-x: 10px;
+        background-repeat: no-repeat;
+        background-size: 70%;
+    }
+
+    .text-nft-2{
+        display: flex;
+        height: 150px;
+        width: 320px;
+        background-color: rgba(0, 255, 255, 0);
+        margin-top: 30px;
+        background-image: url(../IMG/svg-text-nft-3.svg);
+        background-position: top;
+        background-position-x: 10px;
+        background-repeat: no-repeat;
+        background-size: 60%;
+
+    }
+    .text-nft-3{
+        display: flex;
+        height: 150px;
+        width: 320px;
+        background-color: rgba(0, 255, 255, 0);
+        margin-top: 30px;
+        background-image: url(../IMG/svg-text-nft-2.svg);
+        background-position: top;
+        background-position-x: 10px;
+        background-repeat: no-repeat;
+        background-size: 50%;
+
+    }
+    .text-nft-4{
+        display: flex;
+        height: 150px;
+        width: 320px;
+        background-color: rgba(0, 255, 255, 0);
+        margin-top: 30px;
+        background-image: url(../IMG/svg-text-nft-4.svg);
+        background-position: top;
+        background-position-x: 10px;
+        background-repeat: no-repeat;
+        background-size: 60%;
+
+    }
+
+    
+    
+    .bt-nft-link{
+        margin-top: 20px;
+        display: flex;
+        border-color: white;
+        color: black;
+        background-color: #FDD500;
+        height: 70px;
+        width: 250px;
+        border-radius: 10px;
+        font-weight: bold;
+        border-color: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 19px;
+        text-decoration: none;
+    }
+
+    .bt-nft-link:hover{
+        background-color: #FDD500;
+        height: 75px;
+        width: 255px;
+        margin-top: 15px;
+        color: black;
+
+    }
+
+    .main-cards-nft{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: rgba(137, 43, 226, 0);
+        height: 700px;
+        width: 100%;
+        margin-bottom: 80px;
+
+    }
+
+.main-building {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    width: auto;
+    height: 1200px;
+    background: rgb(246, 246, 246);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    height: 1100px;
+    margin-left: 200px;
+    margin-top: 500px;
+    background-image: url(../IMG/bg-sport-brasil.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+
+    
+}
+
+.box-bg {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: url(../IMG/bg-building.png);
+    position: absolute;
+    background-size: 120%;
+    background-position: center;
+}
+
+.box-main {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background: rgb(17, 170, 129);
+}
+
+.box-video {
+    flex-direction: column;
+    margin-top: 300px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.button-geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0);
+    height: 200px;
+    width: 800px;
+}
+.btn-outline-light-building{
+    background-color: #fbbc00;
+    margin-bottom: 20px;
+    margin-left: 10px;
+   margin-right: 10px;
+    height: 70px;
+    width: 390px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn-outline-light-building-play{
+    background-color: #000000;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+   margin-right: 10px;
+    height: 70px;
+    width: 390px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn-outline-light-building-play:hover{
+    background-color: #ffffff;
+    color: black;
+    height: 70px;
+    width: 390px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.205) 2px 6px 12px;
+}
+
+.btn-outline-light-building:hover{
+    background-color: #fbbc00;
+    color: black;
+    height: 70px;
+    width: 390px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.205) 2px 6px 12px;
+}
+
+.video-sandbox{
+    display: flex;
+    height: 450px;
+    width: 800px;
+
+}
+
+#strip-fise {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: auto;
+    background-image: url(../IMG/bg-rise.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+
+.logo-fise {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    background-color: rgba(46, 46, 46, 0);
+    background-image: url(../IMG/logo-fise.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.text-fise {
+    display: flex;
+    height: 300px;
+    width: 850px;
+    color: aliceblue;
+    justify-content: initial;
+    background-image: url(../IMG/svg-text-fise.svg);
+    background-repeat: no-repeat; background-position: initial;
+}
+
+.btn-outline-light-fise{
+    margin-top: 220px;
+    display: flex;
+    height: 60px;
+    width: 300px;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+    border-color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.btn-outline-light-fise:hover{
+    margin-top: 220px;
+    display: flex;
+    height: 60px;
+    width: 300px;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+    border-color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    
+}
+
+#strip-nft-collection {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background-image: url(../IMG/bg-sport-land.png);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-sport {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-image: url(../IMG/logo-sport-land.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 100px;
+}
+
+.bootstrap-sport {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+}
+
+#strip-end-page {
+    display: flex;
+    width: auto;
+    height: 500px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../IMG/svg-bg-end.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-skate{
+    height: 300px;
+    width: 300px;
+    background-image: url(../IMG/skate-png.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
